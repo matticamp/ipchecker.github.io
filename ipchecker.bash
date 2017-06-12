@@ -23,10 +23,7 @@ fi
     octet4=$(echo $ip | cut -d "." -f4)
     stat=0
     
-        
-#If the user enters a valid IP, it starts recon process, otherwise it throws an error and stops execution.
-
-#IP address validation through if statement 
+    #IP address validation through if statement 
 #and a regular expression.
 
 if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]] && [ $octet1 -le 255 ] && [ $octet2 -le 255 ] && [ $octet3 -le 255 ] && [ $octet4 -le 255 ];
@@ -35,6 +32,10 @@ then
 else
        stat=0
 fi
+
+    
+#If the user enters a valid IP, it starts recon process, otherwise it throws an error and aborts execution.
+
 case "$stat" in
    "1")echo "Recon on $ip" ;;
    "0")echo "Invalid IP address" 
