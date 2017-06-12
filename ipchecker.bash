@@ -10,10 +10,7 @@ read ip
 #Checks whether the user enters an IP.
 #If not, it throws an error
 
-#If the user enters an IP, it starts recon process.
 
-#IP address validation through if statement 
-#and a regular expression.
 
 if [ -z  $ip ]
 then
@@ -25,6 +22,13 @@ fi
     octet3=$(echo $ip | cut -d "." -f3)
     octet4=$(echo $ip | cut -d "." -f4)
     stat=0
+    
+        
+#If the user enters an IP, it starts recon process.
+
+#IP address validation through if statement 
+#and a regular expression.
+
 if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]] && [ $octet1 -le 255 ] && [ $octet2 -le 255 ] && [ $octet3 -le 255 ] && [ $octet4 -le 255 ];
 then
        stat=1
@@ -66,9 +70,9 @@ fi
 #cd into Applications folder
 
 cd /Applications/Google\ Chrome.app/
-#cd into hidden folder containing the actual executable
+#cd into hidden folder containing the actual Chrome executable
 cd Contents/MacOS/
-#Launch Chrome in a new tab
+#Launch Google Chrome in a new tab
 ./Google\ Chrome -new-tab http://www.ipvoid.com/scan/$ip/ &
 ./Google\ Chrome -new-tab http://www.robtex.com?q=$ip/ &
 ./Google\ Chrome -new-tab  http://www.senderbase.org/lookup?search_string=$ip/ &
