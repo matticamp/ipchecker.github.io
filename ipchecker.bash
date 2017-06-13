@@ -2,6 +2,7 @@
 
 #Malicious IP address checking script
 #Created by Mattia Campagnano on Sat Feb 6 00:43:56 EST 2016
+#OS X version coded for El Capitan and later.
 
 echo -n "Please enter an IP address to check:  ";
 
