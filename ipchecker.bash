@@ -75,3 +75,4 @@ cd Contents/MacOS/
 ./Google\ Chrome -new -tab http://evuln.com/tools/malware-scanner/$ip/ &
 ./Google\ Chrome -new-tab www.ip-tracker.org/blacklist-check.php?ip=$ip
 ./Google\ Chrome -new-tab http://www.ipv4lookup.com/$ip-ip-address-lookup/
+./Google\ Chrome -new-tab http://www.virustotal.com/#/ip-address/$ip/&
