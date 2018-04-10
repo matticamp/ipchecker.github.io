@@ -63,10 +63,10 @@ else
      echo "Valid public IP Address"
 
 fi
-
 firefox -new-tab http://www.ipvoid.com/scan/$ip/ &
 firefox -new-tab http://www.robtex.com?q=$ip/ &
-firefox -new-tab  http://www.senderbase.org/lookup?search_string=$ip/ &
+firefox -new-tab https://www.talosintelligence.com/reputation_center/lookup?search=$ip/ &
 firefox -new-tab http://evuln.com/tools/malware-scanner/$ip/ &
 firefox -new-tab www.ip-tracker.org/blacklist-check.php?ip=$ip
-firefox -new-tab http://www.ipv4lookup.com/$ip-ip-address-lookup/&
+firefox -new-tab http://www.virustotal.com/#/ip-address/$ip/&
+
