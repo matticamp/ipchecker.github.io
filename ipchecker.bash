@@ -20,7 +20,6 @@ if [ -z  $ip ]
 then
    echo "Enter an IP address"
 fi
-
     octet1=$(echo $ip | cut -d "." -f1)
     octet2=$(echo $ip | cut -d "." -f2)
     octet3=$(echo $ip | cut -d "." -f3)
