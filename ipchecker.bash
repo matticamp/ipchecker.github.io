@@ -70,7 +70,7 @@ cd Contents/MacOS/
 #Launch Chrome in a new tab
 ./Google\ Chrome -new-tab http://www.ipvoid.com/scan/$ip/ &
 ./Google\ Chrome -new-tab http://www.robtex.com?q=$ip/ &
-./Google\ Chrome -new-tab  http://www.senderbase.org/lookup?search_string=$ip/ &
+./Google\ Chrome -new-tab  https://www.talosintelligence.com/reputation_center/lookup?search=$ip/ &
 ./Google\ Chrome -new -tab http://evuln.com/tools/malware-scanner/$ip/ &
 ./Google\ Chrome -new-tab www.ip-tracker.org/blacklist-check.php?ip=$ip
 ./Google\ Chrome -new-tab http://www.ipv4lookup.com/$ip-ip-address-lookup/
