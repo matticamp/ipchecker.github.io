@@ -4,7 +4,7 @@ Bash script designed to automate the research for malicious IP addresses, origin
 
 A Linux version, called ipchecker_linux.bash is also included in this package.
 
-I also created a version for use with Windows Susbsystem for Linux under Windows 10 (ipchecker_wsl10.bash).
+I also created a version for use with Windows Susbsystem for Linux under Windows 10 (ipchecker_win10wsl.bash).
 
 In order to use the script, you'll be prompted for an IP address to check.
 
