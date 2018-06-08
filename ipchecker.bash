@@ -27,7 +27,7 @@ fi
     stat=0
 if [[ $ip =~ ^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$ ]] && [ $octet1 -le 255 ] && [ $octet2 -le 255 ] && [ $octet3 -le 255 ] && [ $octet4 -le 255 ];
 then
-stat=1
+       stat=1
 else
        stat=0
 fi
