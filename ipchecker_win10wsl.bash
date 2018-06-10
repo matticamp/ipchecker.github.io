@@ -42,7 +42,8 @@ then
      echo "${ip} is a private IP address: no recon can be performed"
   
      exit 1;
-elif [[ "$ip" =~ (^172.1[6-9].|^172.2[0-9].|^172.3[0-1].) ]];
+elif [[ "$ip" =~ (^172.16\.|^172.17\.|^172.18\.|^172.19\.|^172.20\.|^172.21\.|^172.22\.|^172.23\.|^172.24\.|^172.25\.|^172.26\.|^172.27\.|^172.28\.|^172.29\.|^172.30\.|^172.31\.) ]];
+
 then 
      echo "${ip} is a private IP address. No recon can be performed"
      exit 1;
