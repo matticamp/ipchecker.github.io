@@ -12,7 +12,7 @@ The script will perform a recon on the IP by populating a list of specialized we
 with the IP address entered by the user.
 
 The script will validate the IP address entered by using regular expressions and 
-it will perform a recon on the entered IP only if a valid public IP address is provided.
+it will perform a recon only if a valid public IP address is provided.
 
 Invalid IP addresses and private IP addresses will generate an error and no recon will be performed.
 
