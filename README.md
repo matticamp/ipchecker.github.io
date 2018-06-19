@@ -2,7 +2,7 @@
 Bash script designed to automate the research for malicious IP addresses, originally created for OS X El Capitan and now available for macOS.
 
 
-A Linux version, called ipchecker_linux.bash is also included in this package.
+A Linux version, called ipchecker_linux.bash, is included in this package, too.
 
 I also created a version for use with Windows Subsystem for Linux under Windows 10 (ipchecker_win10wsl.bash).
 
