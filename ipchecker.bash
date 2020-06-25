@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 #Malicious IP address checking script
